@@ -1,6 +1,6 @@
 
-set(SRC
-    ${SRC}
+set(LEGACY_SRC
+    ${LEGACY_SRC}
     ${CMAKE_CURRENT_SOURCE_DIR}/d1mach.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/i1mach.f90
     ${CMAKE_CURRENT_SOURCE_DIR}/r1mach.f90

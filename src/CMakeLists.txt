@@ -21,6 +21,7 @@ endif()
 
 
 add_definitions(-Wno-implicit-interface)
-add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/legacy/amos)
+add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/legacy)
 
 add_library(fortran_utils ${SRC})
+target_link_libraries(fortran_utils legacy)
